@@ -17,7 +17,7 @@ export default class ListCustomer extends Component {
 
   onClickHandle(e) {
     const ID = e.target.parentElement.id
-    window.location.href = 'http://localhost:3000/customers/detail/'+ID;
+    window.location.href = 'https://bich-trang-webstie.herokuapp.com/customers/detail/'+ID;
   }
 
   componentDidMount() {
