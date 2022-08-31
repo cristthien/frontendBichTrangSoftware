@@ -54,7 +54,7 @@ export default class CreateCustomer extends Component {
             website:this.state.website
         }
 
-        axios.post('https://bich-trang-webstie.herokuapp.com/customers/add', customer)
+        axios.post('https://bich-trang-software.herokuapp.com/customers/add', customer)
           .then(function (response) {
             if(response.status === 200){
                 window.location.reload();
