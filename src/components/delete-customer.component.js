@@ -4,8 +4,8 @@ import axios from "axios";
 const DeleteCustomer = ()=> {
     const {id} = useParams();
     function HandlingDelete () {
-        axios.delete('http://localhost:5000/customers/delete/'+id)
-        .then(res=> {window.location.href='http://localhost:3000/customers';})
+        axios.delete('https://bich-trang-software.herokuapp.com/customers/delete/'+id)
+        .then(res=> {window.location.href='https://bich-trang-webstie.herokuapp.com/customers';})
         .catch(err=> {console.log(err)})
     }
     
