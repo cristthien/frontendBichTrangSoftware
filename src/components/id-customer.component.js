@@ -4,7 +4,7 @@ import {useParams} from 'react-router-dom';
 import '../css/single-customer.css'
 function onClickHandlingDelete(e){
     var ID = e.target.id;
-    window.location.href = 'https://bich-trang-webstie.herokuapp.com/delete/'+ID;
+    window.location.href = 'https://bich-trang-webstie.herokuapp.com/customers/delete/'+ID;
 
 }
 function onClickHandlingEdit(e){
