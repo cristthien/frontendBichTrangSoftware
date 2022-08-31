@@ -27,10 +27,10 @@ const EditCustomer =(props) => {
     }
     function onSubmit(e){
         e.preventDefault();
-        axios.post('http://localhost:5000/customers/update/'+id, selectedCustomer[0])
+        axios.post('https://bich-trang-software.herokuapp.com/customers/update/'+id, selectedCustomer[0])
         .then(function (response) {
           if(response.status === 200){
-              window.location.href='http://localhost:3000/customers';
+              window.location.href='https://bich-trang-webstie.herokuapp.com/customers';
           }
       })
         .catch(function (error) {
