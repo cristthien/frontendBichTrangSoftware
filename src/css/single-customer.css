@@ -1,0 +1,15 @@
+ul{ font-size: 18px;}
+.btn-edit{
+    color: white;
+    width: 80px;
+    padding: 8px 24px;
+    font-size: 18px;
+    outline: none;
+}
+.btn-delete{
+    padding:8px 12px;
+    font-size: 18px;
+    width: 80px;
+    outline: none;
+
+}
