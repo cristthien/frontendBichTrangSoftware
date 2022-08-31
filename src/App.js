@@ -15,7 +15,7 @@ import DeleteCustomer from './components/delete-customer.component';
 function App() {
   const [customers, setCustomers]= useState([]);
   useEffect(()=>{
-
+document.title = "Manager customers"
     async function  getData (){
       const res = await axios.get('https://bich-trang-software.herokuapp.com/customers');
       return res;
