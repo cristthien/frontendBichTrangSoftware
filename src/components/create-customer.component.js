@@ -57,7 +57,7 @@ export default class CreateCustomer extends Component {
         axios.post('https://bich-trang-software.herokuapp.com/customers/add', customer)
           .then(function (response) {
             if(response.status === 200){
-                window.location.reload();
+               window.location.href='https://bich-trang-webstie.herokuapp.com/customers';
             }
         })
           .catch(function (error) {
